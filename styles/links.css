@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+    color:#2b2b2b;
+}
+header a{
+    background-color: #FF9B9B;
+    padding:.5rem .9rem;
+    border-radius: 20px;
+    font-weight:bolder;
+}
+header a:hover{
+    background-color: #CBFFA9;
+}
