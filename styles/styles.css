@@ -15,6 +15,7 @@ main{
     line-height:2rem;
     max-width: 960px;
     margin:0 auto;
+    height:900px;
 }
 nav{
     display: flex;
@@ -35,4 +36,23 @@ header nav li{
 p{
     padding-top:.5rem;
     padding-bottom:.5rem;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+.displayNone{
+    display: none;
+}
+@media screen and (max-width: 1200px){
+    nav ul{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    header nav ul li{
+        margin:1rem 0;
+    }
+    .displayNone{
+        display: none;
+    }
 }
